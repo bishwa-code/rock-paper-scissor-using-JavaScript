@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Courier, monospace, sans-serif;
+}
+
+body{
+    background-color: #cfb2f8;
+    text-align: center;
+}
+
+.container{
+    width: 80vmin;
+    margin: 8vmin auto;
+    background: linear-gradient(135deg, #c3a3f1, #6414e9);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.container h1{
+    font-size: 6vmin;
+    color: #e4d0ff;
+    background-color: #844ce0;
+    padding: 2vmin 4vmin;
+    text-transform: uppercase;
+    margin-bottom: 4vmin;
+}
+
+.options{
+    gap: 2vmin;
+    margin-bottom: 5vmin;
+}
+
+.option{
+    width: 20vmin;
+    height: 20vmin;
+}
+
+.option img{
+    width: 80%;
+    height: 80%;
+} 
+
+.option img:hover{
+    outline: 3px solid black;
+    border-radius: 50%;
+}
+
+.scores{
+    gap: 7vmin;
+    font-size: 4vmin;
+    margin-bottom: 5vmin;
+}
+
+.score :nth-child(1){
+    font-size: 8vmin;
+}
+
+.score :nth-child(2){
+    font-size: 8vmin;
+}
+
+.displaying-options{
+    margin-bottom: 2vmin;
+}
+.displaying-options p{
+    font-size: 2.5vmin;
+    height: 3vmin;
+}
+
+.displaying-options span{
+    font-weight: bold;
+}
+
+.winner-msg{
+    font-size: 3.5vmin;
+    opacity: 0.9;
+    margin-bottom: 3vmin;
+}
+
+.winner-msg p{
+    color: #333;
+    font-weight: bold;
+    padding: 1.4vmin 3.2vmin;
+    background-color: #e5dbf1;
+    border-radius: 12px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev{
+    opacity: 0.4;
+    letter-spacing: 0.6px;
+    color: #e5dbf1;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 1.6vmin;
+}
